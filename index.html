@@ -18,11 +18,11 @@
     <h1 class="header">KALKULATOR WALUT</h1>
     <form class="form js-form">
         <fieldset class="form__fieldset">
-            <legend class="form__legend">KALKULATOR</legend>
+            <legend class="form__legend">kalkulator</legend>
             <p>
                 <label>
                     <span class="form__labelText">Podaj kwotę*:</span>
-                    <input name="amount" class="form__amount js-amount" required>
+                    <input type="number" name="amount" class="form__amount js-amount" step= 0.01  min=0.01 equired>
                 </label>
             </p>
             <p>
@@ -41,7 +41,7 @@
         </fieldset>
     </form>
     <p>*wypełnij pole</p>
-    <p class="body__pharagraph">Wynik:<strong class="js-result"></strong></p>
+    <p class="body__pharagraph">Wynik: <strong class="js-result"></strong></p>
 </body>
 
 </html>
